@@ -11,7 +11,7 @@ console.log(import.meta.env.BASE_URL);
 
 const App = () => {
   return (
-    <Router basename={import.meta.env.BASE_URL} >
+    <Router >
       <Routes>
         <Route path="/" exact element={<><Navbar/><LandingPage/></>}/>
         <Route path='/dashboard' element={<><Navbar/><DashboardPage/></>}/>
