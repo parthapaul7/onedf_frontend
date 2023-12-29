@@ -2,7 +2,6 @@
 // src/LandingPage.jsx
 import React from 'react';
 import bgImg from '../assets/hero-bg-2.png'
-import Navbar from '../components/Navbar'
 
 const LandingPage = () => {
   return (

@@ -49,9 +49,9 @@ const RegistrationForm = () => {
     <div className='hidden w-[45vw] h-[100vh] bg-blue-100 sm:block'>
       <img src={sideImg} alt="" className='h-[100vh] bg-blue-100' />
     </div>
-    <div className="min-w-[100vw] max-w-md md:min-w-[55vw] h-[100vh] block px-[10vw] sm:px-20 py-8 bg-blue-100 rounded shadow-md">
-      <h2 className="text-2xl font-semibold mb-6">OneNDF Registration Form</h2>
-      <form onSubmit={formik.handleSubmit} className="space-y-4">
+    <div className="min-w-[100vw] max-w-xl md:min-w-[55vw] h-[100vh] block px-[10vw] sm:px-20 py-8 bg-blue-100 rounded shadow-md">
+      <h2 className="max-w-xl mx-auto text-left text-2xl font-semibold mb-6">OneNDF Registration Form</h2>
+      <form onSubmit={formik.handleSubmit} className="mx-auto space-y-4 max-w-xl">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-600">
             Name

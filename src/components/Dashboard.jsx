@@ -11,7 +11,8 @@ const DashboardPage = () => {
   ];
 
   return (
-    <div className="h-[calc(100vh-4.5rem)] bg-gradient-to-r from-blue-400 via-blue-300 to-blue-200 text-white p-6">
+    <div className='bg-gradient-to-r from-blue-400 via-blue-300 to-blue-200 text-white'>
+    <div className="h-[calc(100vh-4.5rem)] max-w-6xl mx-auto p-6">
       <h1 className="text-4xl font-bold mb-6">Welcome to Your Dashboard</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -34,6 +35,7 @@ const DashboardPage = () => {
           Apply for a Loan
         </Link>
       </div>
+    </div>
     </div>
   );
 };
