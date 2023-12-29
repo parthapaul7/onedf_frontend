@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import './input.css';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/Landing';
 import RegistrationForm from './components/RegistrationForm';
 import DashboardPage from './components/Dashboard';
