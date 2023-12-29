@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" exact element={<><Navbar/><LandingPage/></>}/>
         <Route path='/dashboard' element={<><Navbar/><DashboardPage/></>}/>
