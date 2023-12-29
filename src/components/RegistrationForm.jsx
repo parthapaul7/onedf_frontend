@@ -46,10 +46,10 @@ const RegistrationForm = () => {
 
   return (
     <div className='block flex'>
-    <div className='w-[45vw] h-[100vh] bg-blue-100'>
+    <div className='hidden w-[45vw] h-[100vh] bg-blue-100 sm:block'>
       <img src={sideImg} alt="" className='h-[100vh] bg-blue-100' />
     </div>
-    <div className="max-w-md min-w-[55vw] h-[100vh] block px-20 py-8 bg-blue-100 rounded shadow-md">
+    <div className="min-w-[100vw] max-w-md md:min-w-[55vw] h-[100vh] block px-[10vw] sm:px-20 py-8 bg-blue-100 rounded shadow-md">
       <h2 className="text-2xl font-semibold mb-6">OneNDF Registration Form</h2>
       <form onSubmit={formik.handleSubmit} className="space-y-4">
         <div>
